@@ -1,0 +1,33 @@
+html {
+    background-color: blanchedalmond;
+}
+body {
+    width: 680px;
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: white;
+}
+.articleBreak {
+    clear:both;
+    padding-top: 25em;
+    margin-top: 25em;
+}
+#aboutLeft {
+    float:left;
+    width: 450px;
+}
+.floatRight {
+    float:right;
+    margin-top: 1.2em;
+}
+footer {
+    clear:both;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
+.title {
+    text-align: center;
+}
