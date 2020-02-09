@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Muli|PT+Sans&display=swap);
+
 
 html {
     background-color: blanchedalmond;
@@ -6,7 +6,7 @@ html {
     /* background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
 }
 body {
-    width: 680px;
+    width: 63%;
     margin: auto;
     padding-left: 2em;
     padding-right: 2em;
@@ -18,11 +18,6 @@ body {
     clear:both;
     padding-top: 5em;
     margin-top: 5em;
-    
-}
-#aboutLeft {
-    float:left;
-    width: 450px;
 }
 h1,h2,h3 {
     font-family: 'Oxygen', sans-serif;
@@ -30,8 +25,11 @@ h1,h2,h3 {
 p, li {
     font-family: 'Muli', sans-serif;
 }
-.floatRight {
-    float:right;
+#about {
+    display:flex;
+}
+#about img {
+    width: 100%;
     margin-top: 1.2em;
 }
 footer {
@@ -57,25 +55,19 @@ header h1, p {
     padding: auto 0;
 }
 #arrow {
-    height: 50px;
-    width: 100px;
+    height: 8%;
+    width: 15%;
     border:none;
     margin: 35% auto;
 }
 .projectImage {
-    height: 408px;
-    width: 612px;
+    width:100%;
 }
 #projectFlex {
     display: flex;
     justify-content: space-evenly;
 }
-#projects button {
-    height: 50px;
-    margin: 35% 0;
-    border-radius: 15%;
-    background: bisque;
-}
+
 .projectDesc {
     border-top: 2px solid black;
     margin: 2em auto;
@@ -104,7 +96,7 @@ footer {
 .icon {
     border:none;
     border-radius: 0;
-    width: 150px;
+    width: 60%;
     height: 100px;
 }
 .padding-top {
