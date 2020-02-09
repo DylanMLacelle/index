@@ -48,20 +48,20 @@
 
                 <div id="projectFlex">
 
-                    <button onclick="changeProject('left')"><<</button>
-
+                    
+                    <img id="arrow" src="images/backArrow.png" onclick="changeProject('left')"/>
                     <div class="project">
                         <h3>Alien Farmer</h3>
-                        <img alt="alien farmer" src="https://dylanmlacelle.weebly.com/uploads/1/2/9/9/129974146/game1-eeooszacyo_orig.png"/>
+                        <img class="projectImage" alt="alien farmer" src="https://dylanmlacelle.weebly.com/uploads/1/2/9/9/129974146/game1-eeooszacyo_orig.png"/>
                         <p class="projectDesc"><span class="firstLetter">A</span>lien Farmer was a creative project for one of my classes. We were given the freedom to design a game which included all the basics, sound, animations, high scores etc. We used the XNA
                             framework (Monogame) to create our games, and I would say that this project taught me a lot about the structure of game projects or coding in general. I admit some of the code is a little
                             dirty due to poor time management and decision making, but overall I am proud of this project.
                         </p>
-                        <p class="githubLink"><a href="https://github.com/DylanMLacelle/alien-farmer">Click here to check it out on github!</a></p>
+                        <p class="githubLink"><a target="_blank" href="https://github.com/DylanMLacelle/alien-farmer">Click here to check it out on github!</a></p>
                     </div>
                     <div class="project" hidden>
                         <h3>Roll a Ball</h3>
-                        <img alt="roll_ball" src="https://dylanmlacelle.weebly.com/uploads/1/2/9/9/129974146/985953764_orig.png"/>
+                        <img class="projectImage" alt="roll_ball" src="https://dylanmlacelle.weebly.com/uploads/1/2/9/9/129974146/985953764_orig.png"/>
                         <p class="projectDesc"><span class="firstLetter">R</span>oll a Ball was my attempt at a game using the Unity engine. I have made a 3D version of this game where you would roll around and collect coins years ago, but have since lost the files.
                             Since then I decided I wanted to recreate the magic of roll a ball in a 2D fashion. I decided I would try to learn how I could do procedural generation of levels, and I would say it was 
                             a success. Although the code is very dirty, I believe I learned a lot from this project.
@@ -70,7 +70,7 @@
                     </div>
                     <div class="project" hidden>
                         <h3>Flash Cards</h3>
-                        <img alt="study_card" src="https://dylanmlacelle.weebly.com/uploads/1/2/9/9/129974146/272282888_orig.png"/>
+                        <img class="projectImage" alt="study_card" src="https://dylanmlacelle.weebly.com/uploads/1/2/9/9/129974146/272282888_orig.png"/>
                         <p class="projectDesc"><span class="firstLetter">F</span>lash cards (Never got a proper name) was a personal project for studying that I made with windows forms. The idea of the application is to create flashcards with questions and answers. 
                             Then you could study using those flash cards you created and self evaluate yourself. At the end of your study sessions (going through the entire flashcard deck) you would be presented with
                             a statistic of how you did. This application was based on an application called "Anki".
@@ -78,7 +78,8 @@
                         <p class="githubLink"><a href="https://github.com/DylanMLacelle/flashcards_prototype">Click here to check it out on github!</a></p>
                     </div>
     
-                    <button onclick="changeProject('right')">>></button>
+                    <img id="arrow" src="images/frontArrow.png" onclick="changeProject('right')"/>
+                    
                 </div>
             </article>
             
@@ -87,7 +88,14 @@
         </main>
         <footer>
             <h2>Get in touch</h2>
-            <a href="mailto:dylanmlacelle@gmail.com">dylanmlacelle@gmail.com</a>
+            <div id="iconFlex">
+                <div><p>Email</p><a href="mailto:dylanmlacelle@gmail.com"><img class="icon" src="images/email.png"/></a></div>
+                <div><p>LinkedIn</p><a href="https://www.linkedin.com/in/dlacelle/"><img class="icon" src="images/linkedin.png"/></a></div>
+                <div><p>GitHub</p><a href="https://github.com/DylanMLacelle"><img class="icon" src="images/github.png"/></a></div>
+                
+                
+            </div>
+            <div class="padding-top">Website designed and built by Dylan Lacelle</div>
         </footer>
     </body>
 </html>

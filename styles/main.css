@@ -48,7 +48,13 @@ header h1, p {
     margin: auto 0;
     padding: auto 0;
 }
-#projects img {
+#arrow {
+    height: 50px;
+    width: 100px;
+    border:none;
+    margin: 35% auto;
+}
+.projectImage {
     height: 408px;
     width: 612px;
 }
@@ -70,12 +76,30 @@ header h1, p {
 .project a {
     text-align:center;
 }
+#about p, #about h3 {
+    margin: 1em;
+}
 .firstLetter {
     font-size: 140%;
 }
 .githubLink {
     text-align: center;
 }
-#about li {
-    list-style: 
+footer {
+    padding-bottom: 1em;
 }
+#iconFlex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icon {
+    border:none;
+    border-radius: 0;
+    width: 150px;
+    height: 100px;
+}
+.padding-top {
+    padding-top: 2em;
+}
+
