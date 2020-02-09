@@ -1,4 +1,4 @@
-
+@import url("//fonts.googleapis.com/css?family=Muli|PT+Sans&display=swap");
 
 html {
     background-color: blanchedalmond;
@@ -27,10 +27,12 @@ p, li {
 }
 #about {
     display:flex;
+    justify-content: end;
 }
 #about img {
-    width: 100%;
+    width: 70%;
     margin-top: 1.2em;
+    float:right;
 }
 footer {
     clear:both;
