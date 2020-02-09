@@ -22,6 +22,12 @@ body {
     float:left;
     width: 450px;
 }
+h1,h2,h3 {
+    font-family: 'Oxygen', sans-serif;
+}
+p, li {
+    font-family: 'Muli', sans-serif;
+}
 .floatRight {
     float:right;
     margin-top: 1.2em;
